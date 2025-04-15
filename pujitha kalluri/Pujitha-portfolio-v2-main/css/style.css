@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffe5ec, #e0c3fc);
+    color: #222;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background: linear-gradient(to right, #1e1e2f, #243b55);
+    color: #f0f0f0;
+  }
+  
+  nav {
+    background: #8a2be2;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+  }
+  
+  .hero, .section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    background: #fef6ff;
+  }
+  
+  footer {
+    background: #8a2be2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .highlight {
+    color: #ff007f;
+  }
+  
